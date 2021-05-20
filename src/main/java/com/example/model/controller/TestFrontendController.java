@@ -17,25 +17,24 @@ public class TestFrontendController {
     @Autowired
     DatabaseClient databaseClient;
 
-//    @GetMapping("/getAllProducts")
-//    @ResponseBody
-//    public ProductDto[] getAllProducts(){
-//        return databaseClient.getProducts();
-//    }
-
-
 
     @GetMapping("/getAllProducts")
     public String getAllProducts(Model model){
-        model.addAttribute("listProducts", databaseClient.getProducts());
+        List<ProductDto> productDtoList= Arrays.asList(databaseClient.getProducts());
+        model.addAttribute("productDtoListAtr", productDtoList);
+        return "index";
+     }
+
+    @GetMapping("/saveProduct")
+    public String saveProductForm(Model model){
+        model.addAttribute("dto", new ProductDto());
         return "form";
     }
 
-    @GetMapping("/saveBook")
-    public String saveBookForm(Model model){
-        model.addAttribute("whatever", new ProductDto());
-        return "form";
+    @PostMapping("/save")
+    public String saveProductPost(@ModelAttribute("dto") ProductDto productDto ){
+        databaseClient.saveProducts(productDto);
+        return "index";
     }
-
 
 }

@@ -6,9 +6,9 @@
     <head>
     </head>
     <body>
-        <h3>Welcome, Enter The Book Details</h3>
+        <h3>Welcome, Enter The Product Details</h3>
 
-        <form:form method="POST" action="/save" modelAttribute="whatever">
+        <form:form method="POST" action="/save" modelAttribute="dto">
             <table>
                 <tr>
                     <td><form:label path="name">Title</form:label></td>

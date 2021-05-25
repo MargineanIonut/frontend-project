@@ -22,5 +22,11 @@
                 </tr>
             </c:forEach>
         </table>
+
+<button input type="submit" value="Submit" method="POST" action="/saveProduct"  >Create</button>
+<button type="button" >Read</button>
+<button type="button" >Update</button>
+<button type="button" >Delete</button>
+
 </body>
 </html>

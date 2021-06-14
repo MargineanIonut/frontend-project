@@ -1,0 +1,20 @@
+{
+  "title": "Hello from JSON-ENG file",
+  "slides" : [
+    {
+      "url": "https://www.lovellis.it/site/wp-content/uploads/2019/07/Yoga-orizzontale-web.jpg",
+      "alt": "asdf",
+      "active" : false
+    },
+    {
+      "url": "https://pbs.twimg.com/media/DXkxq31W4AYkNC7.jpg",
+      "alt": "asdf",
+      "active" : false
+    },
+    {
+      "url": "image.jpeg",
+      "alt": "asdf",
+      "active" : false
+    }
+  ]
+}

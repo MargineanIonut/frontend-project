@@ -1,0 +1,23 @@
+{
+    "shops" : [
+    {
+        "theme" : "BLUE",
+        "lang" : "EN",
+        "shopcode" : "blen"
+    },
+    {
+        "theme" : "BLUE",
+        "lang" : "fr",
+        "shopcode" : "blfr"
+    },
+    {
+        "theme" : "RED",
+        "lang" : "EN",
+        "shopcode" : "rden"
+    },
+    {
+        "theme" : "RED",
+        "lang" : "FR",
+        "shopcode" : "rdfr"
+    }
+]}

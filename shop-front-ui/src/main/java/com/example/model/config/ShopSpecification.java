@@ -1,7 +1,7 @@
 package com.example.model.config;
 
-import com.example.model.resources.base.Lang;
-import com.example.model.resources.base.Theme;
+import com.example.model.resources.base.info.Lang;
+import com.example.model.resources.base.info.Theme;
 
 public class ShopSpecification {
     Theme theme;

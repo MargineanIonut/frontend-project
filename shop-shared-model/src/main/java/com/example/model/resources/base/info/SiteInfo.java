@@ -1,17 +1,9 @@
-package com.example.model.resources.base;
+package com.example.model.resources.base.info;
 
-public class Resource {
-    String fileName;
+public class SiteInfo {
     Lang lang;
     Theme theme;
-
-    public String getFileName() {
-        return fileName;
-    }
-
-    public void setFileName(String fileName) {
-        this.fileName = fileName;
-    }
+    String shopCode;
 
     public Lang getLang() {
         return lang;
@@ -27,5 +19,13 @@ public class Resource {
 
     public void setTheme(Theme theme) {
         this.theme = theme;
+    }
+
+    public String getShopCode() {
+        return shopCode;
+    }
+
+    public void setShopCode(String shopCode) {
+        this.shopCode = shopCode;
     }
 }

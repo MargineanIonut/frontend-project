@@ -18,7 +18,7 @@ public class CarouselConfig {
         return slides;
     }
 
-    public void setSlides(List<CarouselSlide> slides) {
+    public void setSlides(List<CarouselSlide> slides)  {
         this.slides = slides;
     }
 }
